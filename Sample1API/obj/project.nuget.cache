@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "z+INHpLfKpX+jxq/ee8L6vQscRA1gbOZef5hWtJW+RTFPGog0tXFQZG+2iShHoE6fDYkELYvHx54qq88eb5Nwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NBT-BILAL-TUTUMLU\\source\\repos\\AuthServer\\Sample1API\\Sample1API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\NBT-BILAL-TUTUMLU\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
