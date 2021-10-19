@@ -16,7 +16,6 @@ C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\S
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.AssemblyInfoInputs.cache
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.AssemblyInfo.cs
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.csproj.CoreCompileInputs.cache
-C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\staticwebassets\Sample2API.StaticWebAssets.Manifest.cache
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\staticwebassets\Sample2API.StaticWebAssets.xml
@@ -29,3 +28,11 @@ C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\S
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\SharedLibrary.dll
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\SharedLibrary.pdb
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.csproj.CopyComplete
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\Sample2API\obj\Debug\net5.0\Sample2API.MvcApplicationPartsAssemblyInfo.cs
