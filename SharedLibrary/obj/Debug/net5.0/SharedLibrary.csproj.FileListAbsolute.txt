@@ -9,3 +9,4 @@ C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\SharedLibrary\obj\Debug\net5.
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.dll
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\SharedLibrary\obj\Debug\net5.0\ref\SharedLibrary.dll
 C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.pdb
+C:\Users\NBT-BILAL-TUTUMLU\source\repos\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.csproj.AssemblyReference.cache

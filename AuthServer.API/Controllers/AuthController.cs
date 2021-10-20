@@ -40,7 +40,7 @@ namespace AuthServer.API.Controllers
         [HttpPost]
         public async Task<IActionResult> RevokeRefreshToken(RefreshTokenDto refreshTokenDto)
         {
-            var result = await _authenticationService.RevokeRefreshToken(refreshTokenDto.Token);
+            var result = await _authenticationService.RevokeRefreshTokenAsync(refreshTokenDto.Token);
 
             return ActionResultInstance(result);
         }
@@ -49,7 +49,7 @@ namespace AuthServer.API.Controllers
         public async Task<IActionResult> CreateTokenByRefreshToken(RefreshTokenDto refreshTokenDto)
 
         {
-            var result = await _authenticationService.CreateTokenByRefreshToken(refreshTokenDto.Token);
+            var result = await _authenticationService.CreateTokenByRefreshTokenAsync(refreshTokenDto.Token);
 
             return ActionResultInstance(result);
         }
