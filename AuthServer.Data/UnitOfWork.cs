@@ -12,11 +12,10 @@ namespace AuthServer.Data
     {
         private readonly DbContext _context;
 
-        public UnitOfWork(DbContext context)
+        public UnitOfWork(AppDbContext appDbContext)
         {
-            _context = context;
+            _context = appDbContext;
         }
-
         public void Commit()
         {
             _context.SaveChanges();
