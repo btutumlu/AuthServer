@@ -6,6 +6,7 @@ using AuthServer.Core.UnitOfWork;
 using AuthServer.Data;
 using AuthServer.Data.Repositories;
 using AuthServer.Service.Services;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -68,32 +69,37 @@ namespace AuthServer.API
             services.Configure<List<Client>>(Configuration.GetSection("Clients"));
 
             var tokenOptions = Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
+            services.AddCustomTokenAuth(tokenOptions);
+            //services.AddAuthentication(options =>
+            //{
+            //    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            //    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-            services.AddAuthentication(options =>
+            //}).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, ops =>
+            // {
+            //     ops.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            //     {
+            //         ValidIssuer = tokenOptions.Issuer,
+            //         ValidAudience = tokenOptions.Audience[0],
+
+            //         IssuerSigningKey= SignService.GetSymmetricSecurityKey(tokenOptions.SecurityKey),
+
+            //         ValidateIssuerSigningKey = true,
+            //         ValidateAudience = true,
+            //         ValidateIssuer=true,
+            //         ValidateLifetime = true,
+            //         ClockSkew=TimeSpan.Zero
+
+            //     };
+            // });
+
+
+            services.AddControllers().AddFluentValidation(optipons =>
             {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                optipons.RegisterValidatorsFromAssemblyContaining<Startup>();
+            });
 
-            }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, ops =>
-             {
-                 ops.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                 {
-                     ValidIssuer = tokenOptions.Issuer,
-                     ValidAudience = tokenOptions.Audience[0],
-                     
-                     IssuerSigningKey= SignService.GetSymmetricSecurityKey(tokenOptions.SecurityKey),
-
-                     ValidateIssuerSigningKey = true,
-                     ValidateAudience = true,
-                     ValidateIssuer=true,
-                     ValidateLifetime = true,
-                     ClockSkew=TimeSpan.Zero
-                     
-                 };
-             });
-
-
-            services.AddControllers();
+            services.UseCustomValidationResponse();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AuthServer.API", Version = "v1" });
